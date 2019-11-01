@@ -1,6 +1,4 @@
-//  Created by Frank M. Carrano and Timothy M. Henry.
-//  Copyright (c) 2017 Pearson Education, Hoboken, New Jersey.
-
+/*MAIN PROGRAM DRIVER*/
 #include <iostream>
 #include <string>
 #include "ArrayStack.h"
@@ -8,7 +6,7 @@
 #include<fstream>
 
 using namespace std;
-
+/*
 void stackTester(StackInterface<std::string>* stackPtr)
 {
 	string items[] = {"zero", "one", "two", "three", "four", "five"};
@@ -37,7 +35,7 @@ void stackTester(StackInterface<std::string>* stackPtr)
    cout << "peek into an empty stack (should fail): " << endl;
 	cout << "peek: " << stackPtr->peek() << endl; // nothing to peek!
 }  // end stackTester
-
+*/
 int main()
 {
 	Garage<car>parkingLot;
